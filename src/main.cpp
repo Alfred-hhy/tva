@@ -7,6 +7,7 @@ using namespace tva::service::mpi_service::replicated_3pc;
 #endif
 
 int main(int argc, char** argv) {
+    std::cout << "hekl"<<std::endl;
     tva_init(argc, argv);
 
     // Testing the runtime environment
